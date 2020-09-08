@@ -16,19 +16,34 @@ footer{
     color: aliceblue;
     padding-top: 15px;
     padding-bottom: 15px;
-    margin-right: 0px;
 
 }
 
-form{
+h1,h2,h3, form{
     text-align: center;
 }
 
-h1{
-    text-align: center;
+
+p{
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
-h2{
-    text-align: center;
+
+#videoEventos{
+    width: 100%;
 }
+
+#subtituloEventos{
+    color: rebeccapurple;
+}
+
+.colorParrafo{
+    font-style: italic;
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+
+
 
