@@ -36,11 +36,6 @@ p{
     padding-right: 30px;
 }
 
-
-#videoEventos{
-    width: 100%;
-}
-
 #subtituloEventos{
     color: rebeccapurple;
     font-weight: bold;
@@ -51,12 +46,13 @@ p{
     font-style: italic;
     color: whitesmoke;
     font-size: 20px;
-    font-family: 'Rock Salt', cursive;
+    font-family: 'Cabin Sketch', cursive;
+
 
 }
 
-audio{
-    width: 100%;
+img,video{
+    Max-width: 100%;
 }
 
 #btnGuardar{
@@ -66,5 +62,10 @@ audio{
     font-size: 18px;
     color: whitesmoke;
 }
+
+audio{
+    width: 100%;
+}
+
 
 
