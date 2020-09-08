@@ -53,6 +53,7 @@ p{
 
 img,video{
     Max-width: 100%;
+    width: 100%;
 }
 
 #btnGuardar{
