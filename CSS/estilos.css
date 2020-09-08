@@ -16,13 +16,20 @@ footer{
     color: aliceblue;
     padding-top: 15px;
     padding-bottom: 15px;
+    font-size: 18px;
 
 }
 
-h1,h2,h3, form{
+h2,h3{
     text-align: center;
+    color: rebeccapurple;
+    font-weight: bold;
 }
 
+h1, form{
+    text-align: center;
+
+}
 
 p{
     padding-left: 30px;
@@ -36,14 +43,28 @@ p{
 
 #subtituloEventos{
     color: rebeccapurple;
+    font-weight: bold;
+    
 }
 
 .colorParrafo{
     font-style: italic;
     color: whitesmoke;
-    font-size: 18px;
+    font-size: 20px;
+    font-family: 'Rock Salt', cursive;
+
 }
 
+audio{
+    width: 100%;
+}
 
+#btnGuardar{
+    width: 10%;
+    height: 40px;
+    background-color: #9c27b0;
+    font-size: 18px;
+    color: whitesmoke;
+}
 
 
