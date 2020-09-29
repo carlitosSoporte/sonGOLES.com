@@ -1,43 +1,74 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="CSS/estilos.css">
-	<link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap" rel="stylesheet">
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 	<title>sonGOLES.COM</title>
 </head>
 <body>
-	<h1> ¡Bienvenidos a sonGOLES!</h1>
 	<header>
-		<nav>
-			<ul>
-				<li><a href="index.html">Inicio</a></li>
-				<li><a href="eventos.html">Eventos</a></li>
-				<li><a href="tendencias.html">Tendencias</a></li>
-				<li><a href="contacto.html">Contáctanos</a></li>
-			</ul>
-		</nav>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand" href="#">
+                <img src="https://img.desmotivaciones.es/201110/ESCUDOATLETICONACIONAL1.jpg" width="30" height="30" alt="logo" loading="lazy"> </a>
+            <a class="navbar-brand" href="index.html">¡SonGoles!</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Inicio </a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="eventos.html">Eventos</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="tendencias.html">tendencias</a>
+				</li>
+				<li class="nav-item active">
+                    <a class="nav-link" href="contacto.html">Registro</a>
+                </li>
+              </ul>   
+            </div>
+        </nav>
 	</header>
 	<main>
-		<hr>
-		<h2>SUPERLIGA COLOMBIANA: Ida y vuelta ya programada para regreso del futbol</h2>
-		<img src="resources/eventoProximo.jpg" alt="America vs Junior">
 
-
-		<h3 id="subtitulo">Programación:</h3>
-		<p class="colorParrafo">Nos permitimos informar la programación de la SuperLiga Aguila 2020, entre los clubes Junior FC vs América de Cali, la cual marcará el reinicio de las competencias organizadas por la DIMAYOR, posterior a la suspensión obligatoria de las mismas, por causa de la emergencia sanitaria que ocasionó la pandemia Covid-19.</p>
-		<p class="colorParrafo">La final de ida se jugará en Barranquilla el martes 8 de septiembre a las 7:30 pm.</p>
-		<p class="colorParrafo">La final de vuelta se jugará en Cali el viernes 11 de septiembre a las 7 pm. </p>
-		<video src="resources/noticiaSuperLiga.mp4" controls></video>
-
-		<hr>
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="text-center mt-5 pt-4">SUPERLIGA COLOMBIANA: Ida y vuelta ya programada para regreso del futbol</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-md-6">
+					<img src="resources/eventoProximo.jpg" alt="America vs Junior" class="img-fluid w-100">
+					<h3 class="text-center">Programación:</h3>
+					<p class="text-justify">Nos permitimos informar la programación de la SuperLiga Aguila 2020, entre los clubes Junior FC vs América de Cali, la cual marcará el reinicio de las competencias organizadas por la DIMAYOR, posterior a la suspensión obligatoria de las mismas, por causa de la emergencia sanitaria que ocasionó la pandemia Covid-19.</p>
+					<p class="text-justify">La final de ida se jugará en Barranquilla el martes 8 de septiembre a las 7:30 pm.</p>
+					<p class="text-justify">La final de vuelta se jugará en Cali el viernes 11 de septiembre a las 7 pm. </p>
+					<p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime sunt excepturi molestias voluptate obcaecati error nesciunt odio, repellat temporibus sint eaque quam eligendi quisquam. Ea ad voluptatum veritatis reprehenderit, assumenda dolorem dolorum odit molestias laboriosam in quaerat aut atque suscipit quis, perspiciatis iure a dolores minima magni neque, similique accusamus. Sint esse eveniet animi reiciendis, consectetur, totam dolores nihil, accusamus veritatis ipsa voluptas temporibus commodi ullam quo similique quod cum. Numquam provident nulla quidem. Optio dolor itaque cupiditate corrupti a? Laudantium expedita perferendis sed veniam explicabo officiis nulla sit consequatur ipsum voluptatum placeat voluptas voluptate quo nostrum, dolores natus suscipit dolorum facere! Minus, quas dicta nemo non eos laboriosam eius ut sunt ducimus molestias officiis saepe? Unde architecto odio quo laudantium iste voluptate modi maxime aperiam sed harum perferendis, at esse delectus debitis praesentium maiores aliquam libero eveniet? Distinctio at nulla minima sint ullam illo, nemo quidem in modi labore, dolorem quisquam placeat blanditiis iste? Cumque molestias dolorem eligendi delectus. Porro sed at dignissimos facilis dicta quia illo quidem! Magni!</p>
+					
+				</div>
+				<div class="col-12 col-md-6">
+					<video src="resources/noticiaSuperLiga.mp4" controls class="img-fluid w-100"></video>
+					<h3 class="text-center">Detalles:</h3>
+					<p class="text-justify">Los últimos 90 minutos de la gran final se empiezan a vivir con 			intensidad a pocas horas del 	duelo.
+						La Superliga Águila 2020 prepara el regreso a la competencia de Junior de Barranquilla y América de Cali. El conjunto rojiazul quiere mantener el título que supo ganarle a principios del 2019 al Tolima, mientras que 'La Mecha' buscará ganarlo por primera vez. Goal te cuenta todos los detalles de la final entre campeones.</p>
+						<p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto accusantium quam dolores, veniam, beatae consequuntur repellat sequi dolorum ex itaque alias aspernatur qui obcaecati officia rem facilis laudantium odit, culpa ducimus animi similique. Eius accusantium ex nobis exercitationem vero iure blanditiis unde sequi. Ad minus eaque iste veritatis a? Libero porro illo nam, velit provident molestiae quam nisi animi inventore quibusdam voluptates reprehenderit! Nostrum nisi animi minus enim quo sapiente quisquam aliquam maxime, blanditiis, voluptatibus aspernatur facilis vel reprehenderit libero dolor omnis nam suscipit quasi quos odio recusandae tenetur obcaecati praesentium deleniti! Eaque veritatis culpa incidunt facilis fuga atque aliquam? Libero qui architecto doloremque, dicta numquam nulla saepe provident voluptatibus minus laborum dignissimos, molestiae officiis distinctio, eveniet sed! Dolor sunt asperiores saepe, nesciunt, qui blanditiis dicta illum aliquam accusamus sapiente neque impedit commodi! Dolorem officiis nesciunt suscipit ut quibusdam molestiae tempora nobis repellat nemo vero sequi ab placeat, odio voluptatibus at natus necessitatibus dolore nihil saepe consequuntur eveniet soluta. Laudantium perferendis consectetur sit quo harum provident, sed quaerat tempora. Tempora accusamus blanditiis animi ex nesciunt? Laudantium, est reiciendis recusandae mollitia asperiores suscipit laborum totam assumenda quam pariatur modi quasi veritatis delectus similique quibusdam tempore itaque placeat non cupiditate odit eligendi!</p>
+				</div>
+			</div>
+		</div>
 	</main>
-	<footer>
-		<p>Carlos Andres Diaz Aguirre</p>
-		<p>andrez1915@gmail.com</p>
-		<p>Derechos Reservados</p>
-		<p>Medellin-2020</p>	
-	</footer>
+	<footer class="bg-dark text-center text-white">
+        <p>Carlos Andres Diaz Aguirre &copy;</p>
+        <p>andrez1915@gmail.com</p>
+        <p>Medellin - Colombia</p>
+        <p>2020</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 </html>
